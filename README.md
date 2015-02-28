@@ -10,7 +10,7 @@ providing ressource to the community should incentivized.
 ### componments:
 
 * a thelonius blockchain providing a verified set of ressource ( hash ) pointer along with permission set  
-* a v8 vm instrumented in order to measure its ressources consumption
+* a ~~v8~~  duktape vm instrumented in order to measure its ressources consumption and constraint its footprint
 * a distributed p2p storage 
 
 
@@ -19,4 +19,5 @@ providing ressource to the community should incentivized.
 * https://thelonious.io/
 * http://ipfs.io/
 * https://developers.google.com/v8/embed
-
+* http://godoc.org/github.com/robertkrimen/otto
+* https://github.com/svaarala/duktape/blob/master/doc/sandboxing.rst
