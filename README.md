@@ -7,14 +7,14 @@ A community is a set of computation, storage, bandwith, contents ans implemented
 The main aims is to offer an internet overlay shared by a community (think an entreprise vpn), hosted, and computed by its members
 providing ressource to the community should incentivized.
 
-componments:
+## componments:
 
-a thelonius blockchain providing a verified set of ressource ( hash ) pointer along with permission set  
-a v8 vm instrumented in order to measure its ressources consumption
-a distributed p2p storage 
+* a thelonius blockchain providing a verified set of ressource ( hash ) pointer along with permission set  
+* a v8 vm instrumented in order to measure its ressources consumption
+* a distributed p2p storage 
 
 
-some pointers :
+## some pointers :
 
 https://thelonious.io/
 http://ipfs.io/
