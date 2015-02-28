@@ -1,13 +1,13 @@
-# Note about a somewhat concensus trust driven decentralized computing system
+# Note about a somewhat consensus trust driven decentralized computing system
 
 Objective : 
-a Commuinity overlay network of distributed ressources
+a Community overlay network of distributed ressources
 
 A community is a set of computation, storage, bandwith, contents ans implemented application.
 The main aims is to offer an internet overlay shared by a community (think an entreprise vpn), hosted, and computed by its members
 providing ressource to the community should incentivized.
 
-compononments:
+componments:
 
 a thelonius blockchain providing a verified set of ressource ( hash ) pointer along with permission set  
 a v8 vm instrumented in order to measure its ressources consumption
