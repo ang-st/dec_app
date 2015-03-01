@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vagrant/code/dec_app/dynamorio/core/arch/asm_defines.asm
+configure.h
+/home/vagrant/code/dec_app/dynamorio/core/arch/configure.h
+
+/home/vagrant/code/dec_app/dynamorio/core/arch/asm_shared.asm
+asm_defines.asm
+/home/vagrant/code/dec_app/dynamorio/core/arch/asm_defines.asm
+
+/home/vagrant/code/dec_app/dynamorio/core/arch/x86/x86_asm_defines.asm
+
+/home/vagrant/code/dec_app/dynamorio/core/arch/x86/x86_shared.asm
+../asm_defines.asm
+/home/vagrant/code/dec_app/dynamorio/core/arch/asm_defines.asm
+x86_asm_defines.asm
+/home/vagrant/code/dec_app/dynamorio/core/arch/x86/x86_asm_defines.asm
+
+configure.h
+

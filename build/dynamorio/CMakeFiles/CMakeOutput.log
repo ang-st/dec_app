@@ -1,0 +1,454 @@
+The system is: Linux - 3.16.0-4-amd64 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/3.0.2/CompilerIdC/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec194040390/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec194040390.dir/build.make CMakeFiles/cmTryCompileExec194040390.dir/build
+make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec194040390.dir/testCCompiler.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec194040390.dir/testCCompiler.c.o   -c /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTryCompileExec194040390
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec194040390.dir/link.txt --verbose=1
+/usr/bin/cc       CMakeFiles/cmTryCompileExec194040390.dir/testCCompiler.c.o  -o cmTryCompileExec194040390 -rdynamic 
+make[1]: Leaving directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec818893268/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec818893268.dir/build.make CMakeFiles/cmTryCompileExec818893268.dir/build
+make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec818893268.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec818893268.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c
+Linking C executable cmTryCompileExec818893268
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec818893268.dir/link.txt --verbose=1
+/usr/bin/cc     -v CMakeFiles/cmTryCompileExec818893268.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec818893268 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Debian 4.9.2-10) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec818893268' '-rdynamic' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8rXVft.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec818893268 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec818893268.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec818893268/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec818893268.dir/build.make CMakeFiles/cmTryCompileExec818893268.dir/build]
+  ignore line: [make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building C object CMakeFiles/cmTryCompileExec818893268.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc    -o CMakeFiles/cmTryCompileExec818893268.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.0/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTryCompileExec818893268]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec818893268.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc     -v CMakeFiles/cmTryCompileExec818893268.dir/CMakeCCompilerABI.c.o  -o cmTryCompileExec818893268 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec818893268' '-rdynamic' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/cc8rXVft.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec818893268 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec818893268.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/cc8rXVft.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec818893268] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec818893268.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/bin/c++ 
+Build flags: 
+Id flags: 
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/3.0.2/CompilerIdCXX/a.out"
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1109595448/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1109595448.dir/build.make CMakeFiles/cmTryCompileExec1109595448.dir/build
+make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec1109595448.dir/testCXXCompiler.cxx.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec1109595448.dir/testCXXCompiler.cxx.o -c /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTryCompileExec1109595448
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1109595448.dir/link.txt --verbose=1
+/usr/bin/c++        CMakeFiles/cmTryCompileExec1109595448.dir/testCXXCompiler.cxx.o  -o cmTryCompileExec1109595448 -rdynamic 
+make[1]: Leaving directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2166493140/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2166493140.dir/build.make CMakeFiles/cmTryCompileExec2166493140.dir/build
+make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building CXX object CMakeFiles/cmTryCompileExec2166493140.dir/CMakeCXXCompilerABI.cpp.o
+/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2166493140.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTryCompileExec2166493140
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2166493140.dir/link.txt --verbose=1
+/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2166493140.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2166493140 -rdynamic  
+Using built-in specs.
+COLLECT_GCC=/usr/bin/c++
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu
+Thread model: posix
+gcc version 4.9.2 (Debian 4.9.2-10) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2166493140' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccG9LlVE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2166493140 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2166493140.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o
+make[1]: Leaving directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTryCompileExec2166493140/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTryCompileExec2166493140.dir/build.make CMakeFiles/cmTryCompileExec2166493140.dir/build]
+  ignore line: [make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp']
+  ignore line: [/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1]
+  ignore line: [Building CXX object CMakeFiles/cmTryCompileExec2166493140.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/bin/c++     -o CMakeFiles/cmTryCompileExec2166493140.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.0/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTryCompileExec2166493140]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2166493140.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/c++      -v CMakeFiles/cmTryCompileExec2166493140.dir/CMakeCXXCompilerABI.cpp.o  -o cmTryCompileExec2166493140 -rdynamic  ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/c++]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 4.9.2-10' --with-bugurl=file:///usr/share/doc/gcc-4.9/README.Bugs --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --prefix=/usr --program-suffix=-4.9 --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --with-gxx-include-dir=/usr/include/c++/4.9 --libdir=/usr/lib --enable-nls --with-sysroot=/ --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --with-system-zlib --disable-browser-plugin --enable-java-awt=gtk --enable-gtk-cairo --with-java-home=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64/jre --enable-java-home --with-jvm-root-dir=/usr/lib/jvm/java-1.5.0-gcj-4.9-amd64 --with-jvm-jar-dir=/usr/lib/jvm-exports/java-1.5.0-gcj-4.9-amd64 --with-arch-directory=amd64 --with-ecj-jar=/usr/share/java/eclipse-ecj.jar --enable-objc-gc --enable-multiarch --with-arch-32=i586 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 4.9.2 (Debian 4.9.2-10) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/4.9/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTryCompileExec2166493140' '-rdynamic' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/4.9/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper -plugin-opt=-fresolution=/tmp/ccG9LlVE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/ --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTryCompileExec2166493140 /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o -L/usr/lib/gcc/x86_64-linux-gnu/4.9 -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../.. CMakeFiles/cmTryCompileExec2166493140.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/4.9/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccG9LlVE.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTryCompileExec2166493140] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crt1.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crti.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtbegin.o] ==> ignore
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..]
+    arg [CMakeFiles/cmTryCompileExec2166493140.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/crtend.o] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/crtn.o] ==> ignore
+  remove lib [gcc_s]
+  remove lib [gcc]
+  remove lib [gcc_s]
+  remove lib [gcc]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9] ==> [/usr/lib/gcc/x86_64-linux-gnu/4.9]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/4.9/../../..] ==> [/usr/lib]
+  implicit libs: [stdc++;m;c]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/4.9;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Checking whether the ASM compiler is GNU using "--version" matched "(GNU assembler)|(GCC)|(Free Software Foundation)":
+GNU assembler (GNU Binutils for Debian) 2.25
+Copyright (C) 2014 Free Software Foundation, Inc.
+This program is free software; you may redistribute it under the terms of
+the GNU General Public License version 3 or later.
+This program has absolutely no warranty.
+This assembler was configured for a target of `x86_64-linux-gnu'.
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3909317387/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3909317387.dir/build.make CMakeFiles/cmTryCompileExec3909317387.dir/build
+make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3909317387.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec3909317387.dir/CheckIncludeFile.c.o   -c /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec3909317387
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3909317387.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTryCompileExec3909317387.dir/CheckIncludeFile.c.o  -o cmTryCompileExec3909317387 -rdynamic 
+make[1]: Leaving directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4119691836/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4119691836.dir/build.make CMakeFiles/cmTryCompileExec4119691836.dir/build
+make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4119691836.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4119691836.dir/CheckIncludeFile.c.o   -c /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec4119691836
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4119691836.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTryCompileExec4119691836.dir/CheckIncludeFile.c.o  -o cmTryCompileExec4119691836 -rdynamic 
+make[1]: Leaving directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1600272633/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1600272633.dir/build.make CMakeFiles/cmTryCompileExec1600272633.dir/build
+make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1600272633.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec1600272633.dir/CheckIncludeFile.c.o   -c /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTryCompileExec1600272633
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1600272633.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTryCompileExec1600272633.dir/CheckIncludeFile.c.o  -o cmTryCompileExec1600272633 -rdynamic 
+make[1]: Leaving directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint passed with the following output:
+Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec777153587/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec777153587.dir/build.make CMakeFiles/cmTryCompileExec777153587.dir/build
+make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec777153587.dir/DR_DO_NOT_DEFINE_uint.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec777153587.dir/DR_DO_NOT_DEFINE_uint.c.o   -c /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CheckTypeSize/DR_DO_NOT_DEFINE_uint.c
+Linking C executable cmTryCompileExec777153587
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec777153587.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTryCompileExec777153587.dir/DR_DO_NOT_DEFINE_uint.c.o  -o cmTryCompileExec777153587 -rdynamic 
+make[1]: Leaving directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+
+
+Determining size of ushort passed with the following output:
+Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec488418670/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec488418670.dir/build.make CMakeFiles/cmTryCompileExec488418670.dir/build
+make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec488418670.dir/DR_DO_NOT_DEFINE_ushort.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec488418670.dir/DR_DO_NOT_DEFINE_ushort.c.o   -c /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CheckTypeSize/DR_DO_NOT_DEFINE_ushort.c
+Linking C executable cmTryCompileExec488418670
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec488418670.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTryCompileExec488418670.dir/DR_DO_NOT_DEFINE_ushort.c.o  -o cmTryCompileExec488418670 -rdynamic 
+make[1]: Leaving directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+
+
+Determining size of _Bool passed with the following output:
+Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4047516468/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4047516468.dir/build.make CMakeFiles/cmTryCompileExec4047516468.dir/build
+make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4047516468.dir/DR__Bool_EXISTS.c.o
+/usr/bin/cc    -o CMakeFiles/cmTryCompileExec4047516468.dir/DR__Bool_EXISTS.c.o   -c /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CheckTypeSize/DR__Bool_EXISTS.c
+Linking C executable cmTryCompileExec4047516468
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec4047516468.dir/link.txt --verbose=1
+/usr/bin/cc        CMakeFiles/cmTryCompileExec4047516468.dir/DR__Bool_EXISTS.c.o  -o cmTryCompileExec4047516468 -rdynamic 
+make[1]: Leaving directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+
+
+Performing C SOURCE FILE Test no_stack_protector_avail succeded with the following output:
+Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1508212575/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1508212575.dir/build.make CMakeFiles/cmTryCompileExec1508212575.dir/build
+make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1508212575.dir/src.c.o
+/usr/bin/cc   -Dno_stack_protector_avail   -fno-stack-protector -o CMakeFiles/cmTryCompileExec1508212575.dir/src.c.o   -c /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1508212575
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1508212575.dir/link.txt --verbose=1
+/usr/bin/cc    -Dno_stack_protector_avail    CMakeFiles/cmTryCompileExec1508212575.dir/src.c.o  -o cmTryCompileExec1508212575 -rdynamic 
+make[1]: Leaving directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test nounused_avail succeded with the following output:
+Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2001007114/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2001007114.dir/build.make CMakeFiles/cmTryCompileExec2001007114.dir/build
+make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2001007114.dir/src.c.o
+/usr/bin/cc   -Dnounused_avail   -Wno-unused-but-set-variable -o CMakeFiles/cmTryCompileExec2001007114.dir/src.c.o   -c /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec2001007114
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec2001007114.dir/link.txt --verbose=1
+/usr/bin/cc    -Dnounused_avail    CMakeFiles/cmTryCompileExec2001007114.dir/src.c.o  -o cmTryCompileExec2001007114 -rdynamic 
+make[1]: Leaving directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_TYPELIMITS_CONTROL succeded with the following output:
+Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec3927829008/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec3927829008.dir/build.make CMakeFiles/cmTryCompileExec3927829008.dir/build
+make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec3927829008.dir/src.c.o
+/usr/bin/cc   -DHAVE_TYPELIMITS_CONTROL   -Wtype-limits -o CMakeFiles/cmTryCompileExec3927829008.dir/src.c.o   -c /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec3927829008
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec3927829008.dir/link.txt --verbose=1
+/usr/bin/cc    -DHAVE_TYPELIMITS_CONTROL    CMakeFiles/cmTryCompileExec3927829008.dir/src.c.o  -o cmTryCompileExec3927829008 -rdynamic 
+make[1]: Leaving directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_FVISIBILITY_INTERNAL succeded with the following output:
+Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1788433358/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1788433358.dir/build.make CMakeFiles/cmTryCompileExec1788433358.dir/build
+make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1788433358.dir/src.c.o
+/usr/bin/cc   -DHAVE_FVISIBILITY_INTERNAL   -fvisibility=internal -o CMakeFiles/cmTryCompileExec1788433358.dir/src.c.o   -c /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec1788433358
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec1788433358.dir/link.txt --verbose=1
+/usr/bin/cc    -DHAVE_FVISIBILITY_INTERNAL    CMakeFiles/cmTryCompileExec1788433358.dir/src.c.o  -o cmTryCompileExec1788433358 -rdynamic 
+make[1]: Leaving directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test HAVE_FVISIBILITY_HIDDEN succeded with the following output:
+Change Dir: /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec870417242/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec870417242.dir/build.make CMakeFiles/cmTryCompileExec870417242.dir/build
+make[1]: Entering directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec870417242.dir/src.c.o
+/usr/bin/cc   -DHAVE_FVISIBILITY_HIDDEN   -fvisibility=hidden -o CMakeFiles/cmTryCompileExec870417242.dir/src.c.o   -c /home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTryCompileExec870417242
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTryCompileExec870417242.dir/link.txt --verbose=1
+/usr/bin/cc    -DHAVE_FVISIBILITY_HIDDEN    CMakeFiles/cmTryCompileExec870417242.dir/src.c.o  -o cmTryCompileExec870417242 -rdynamic 
+make[1]: Leaving directory '/home/vagrant/code/dec_app/build/dynamorio/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }

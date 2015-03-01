@@ -23,7 +23,8 @@ providing ressource to the community should incentivized.
 
 * fast bootstrap generation need 3 peers
 * uptime favorized in ratio
-
+* tx for init, refresh, publish, subscribe
+* storage cache (used by the system to maintain
 
 ### some pointers :
 
@@ -35,4 +36,18 @@ providing ressource to the community should incentivized.
 * https://github.com/DynamoRIO
 
 
+
+
+### step so far..
+
+Tested some contract with thelonius work at some point, need getter to check state of execution of smart contract blockchain
+Looked at some embeddable vm: would ended either with naCl but v8 is js and looked lighter than spider monkey, still go otto controlled process look simpler
+
+pin has a cumbersome licence, DynamoRIO look great, 
+Compiled libv8.so, DynamoRIO
+Looked at some go code :)
+Looked at some lll code :)
+
+
+hacking around and testing
 

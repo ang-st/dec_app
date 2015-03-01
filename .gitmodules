@@ -1,0 +1,6 @@
+[submodule "thelonious"]
+	path = thelonious
+	url = https://github.com/eris-ltd/thelonious/
+[submodule "dynamorio"]
+	path = dynamorio
+	url = ../dynamorio/

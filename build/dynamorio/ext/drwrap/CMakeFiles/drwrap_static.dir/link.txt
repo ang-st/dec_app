@@ -1,0 +1,2 @@
+/usr/bin/ar cr ../lib64/release/libdrwrap_static.a  CMakeFiles/drwrap_static.dir/drwrap.c.o CMakeFiles/drwrap_static.dir/drwrap_asm.asm.o
+/usr/bin/ranlib ../lib64/release/libdrwrap_static.a
