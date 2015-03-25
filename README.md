@@ -9,45 +9,44 @@ providing ressource to the community should incentivized.
 
 ### componments:
 
-* a thelonius blockchain providing a verified set of ressource ( hash ) pointer along with permission set  
-* a v8 process instrumented in order to measure its ressources consumption and constraint its footprint to a know set of feauture
-* a distributed p2p storage 
+* defined by smart contract (see DOUG)
+* a thelonius like  blockchain providing a verified set of ressource ( hash ) pointer along with permission set  
+* a local proxy that handle access to blockchain and inject in dom trusted script
+* a distributed p2p storage, via git et bitorrent and webrtc
 
+
+
+## crypto
+* all security sensitive operation should be done outside browser
+* basically each user should have a  tryptic (addr, pubkey, privkey ), signed by a threshold numbers of co member
+* private ressource should be crypted on storage,  
+* user keys can be revoked and assets transfered by multi sig tx ( modality defined in the DOUG ).
 
 ##incentives
-
-* defined by smart contract (see DOUG)
- 
 * resilience long regurlarly refreshed ressource
 * fast responses 
+* would be great to have incentive on running or deploying script
 
 * fast bootstrap generation need 3 peers
 * uptime favorized in ratio
 * tx for init, refresh, publish, subscribe
-* storage cache (used by the system to maintain
+* storage cache 
 
 ### some pointers :
 
 * https://thelonious.io/
 * http://ipfs.io/
-* https://developers.google.com/v8/embed
 * http://godoc.org/github.com/robertkrimen/otto
 * https://github.com/svaarala/duktape/blob/master/doc/sandboxing.rst
-* https://github.com/DynamoRIO
-
-
-
+* https://github.com/feross/webtorrent
+* https://github.com/No9/harmon
+* https://github.com/bitpay/bitcore
+* https://github.com/ethereum/ethereumjs-lib
 
 ### step so far..
 
 Tested some contract with thelonius work at some point, need getter to check state of execution of smart contract blockchain
-Looked at some embeddable vm: would ended either with naCl but v8 is js and looked lighter than spider monkey, still go otto controlled process look simpler
-
-pin has a cumbersome licence, DynamoRIO look great, 
-Compiled libv8.so, DynamoRIO
+tested ethereumjs-lib, webtorrent, and some webrtc, framework
 Looked at some go code :)
 Looked at some lll code :)
-
-
-hacking around and testing
 

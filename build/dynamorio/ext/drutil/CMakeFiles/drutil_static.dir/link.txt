@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../lib64/release/libdrutil_static.a  CMakeFiles/drutil_static.dir/drutil.c.o
-/usr/bin/ranlib ../lib64/release/libdrutil_static.a

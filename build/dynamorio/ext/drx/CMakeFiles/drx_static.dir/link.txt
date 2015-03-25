@@ -1,2 +1,0 @@
-/usr/bin/ar cr ../lib64/release/libdrx_static.a  CMakeFiles/drx_static.dir/drx.c.o
-/usr/bin/ranlib ../lib64/release/libdrx_static.a

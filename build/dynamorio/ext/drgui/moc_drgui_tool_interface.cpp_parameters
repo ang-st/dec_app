@@ -1,4 +1,0 @@
--I/home/vagrant/code/dec_app/build/dynamorio
--o
-/home/vagrant/code/dec_app/build/dynamorio/ext/drgui/moc_drgui_tool_interface.cpp
-/home/vagrant/code/dec_app/dynamorio/ext/drgui/drgui_tool_interface.h

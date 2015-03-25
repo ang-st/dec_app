@@ -1,4 +1,0 @@
-/usr/bin/c++  -m64 -fvisibility=internal -O3 -g3 -Wall -Werror -Wwrite-strings -Wno-unused-but-set-variable -DX64   -DX64    -Wl,--hash-style=both CMakeFiles/drgui.dir/drgui_options_window.cpp.o CMakeFiles/drgui.dir/drgui_main_window.cpp.o CMakeFiles/drgui.dir/main.cpp.o CMakeFiles/drgui.dir/moc_drgui_tool_interface.cpp.o CMakeFiles/drgui.dir/moc_drgui_options_interface.cpp.o CMakeFiles/drgui.dir/moc_drgui_options_window.cpp.o CMakeFiles/drgui.dir/moc_drgui_main_window.cpp.o  -o ../bin64/drgui -rdynamic /usr/lib/x86_64-linux-gnu/libQt5Widgets.so.5.3.2 /usr/lib/x86_64-linux-gnu/libQt5Gui.so.5.3.2 /usr/lib/x86_64-linux-gnu/libQt5Core.so.5.3.2 
-/usr/bin/objcopy --only-keep-debug ../bin64/drgui ../bin64/drgui.debug
-/usr/bin/objcopy --add-gnu-debuglink=../bin64/drgui.debug ../bin64/drgui
-/usr/bin/strip -g -x ../bin64/drgui
