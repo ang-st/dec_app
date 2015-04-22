@@ -3,9 +3,9 @@
 Objective : 
 a Community overlay network of distributed ressources
 
-A community is a set of computation, storage, bandwith, contents and implemented application.
-The main aims is to offer an internet overlay shared by a community (think an entreprise vpn), hosted, and computed by its members
-providing ressource to the community should incentivized.
+A community is a set of computation, storage, bandwidth, contents and implemented application.
+The main aims is to offer an internet overlay shared by a community (think an enterprise vpn), hosted, and computed by its members
+providing ressource to the community should be incentivized.
 
 ### componments:
 
@@ -23,7 +23,7 @@ providing ressource to the community should incentivized.
 * user keys can be revoked and assets transfered by multi sig tx ( modality defined in the DOUG ).
 
 ##incentives
-* resilience long regurlarly refreshed ressource
+* resilience long regularly refreshed ressource
 * fast responses 
 * would be great to have incentive on running or deploying script
 
@@ -42,7 +42,7 @@ providing ressource to the community should incentivized.
 * https://github.com/No9/harmon
 * https://github.com/bitpay/bitcore
 * https://github.com/ethereum/ethereumjs-lib
-
+* http://en.wikipedia.org/wiki/One-time_password#Mathematical_algorithms
 ### step so far..
 
 Tested some contract with thelonius work at some point, need getter to check state of execution of smart contract blockchain
